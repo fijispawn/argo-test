@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: podik
+  labels: 
+    app: my-app
+    environment: dev
+  namespace: development
+spec: 
+  containers:
+    - name: nginx
+      image: ngnix:latest
+      ports: 
+        - containerPort: 80
