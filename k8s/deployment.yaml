@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: fijispawn/agro-test:latest
+          image: fijispawn/agro-test:v1
           ports:
             - containerPort: 80
 
